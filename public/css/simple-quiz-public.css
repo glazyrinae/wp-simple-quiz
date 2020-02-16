@@ -1,0 +1,111 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+#content-registration-user-simple-quiz
+.title-simple-quiz {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: normal;
+}
+#content-registration-user-simple-quiz
+.description-simple-quiz {
+    width:100%;
+    margin: 10% 0%;
+    width: 100%;
+    text-align: justify
+}
+#content-registration-user-simple-quiz
+.full-size-simple-quiz {
+    width: 100%;
+}
+
+#content-registration-user-simple-quiz
+.button-simple-quiz,
+#content-questions-simple-quiz
+.button-simple-quiz {
+    margin: 20px 0px;
+    padding: 20px 0px;
+    width: 100%;
+	font-size:20px;
+}
+
+#content-questions-simple-quiz
+.reset-quiz {
+    margin: 10% 0%;
+    padding: 5% 0%;
+    width: 100%
+}
+
+.wrapper_quiz {
+    *position: relative;
+    width: 100%;
+    height: auto;
+    *border:1px solid red;
+    float:left;
+}
+
+.wrapper_quiz:after {
+    content: "";
+    display: block;
+    #padding-bottom: 100%;
+}
+
+.quiz-question,
+.prev-question,
+.next-question {
+    font-size: 20px;
+    float: left;
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    *position: absolute;
+    *width: 100%;
+    *height: 100%;
+}
+.quiz-answer {
+    padding: 5px 5px;
+    font-size:20px;
+    margin: 5px 0px;
+}
+.question_content {
+    font-size:20px;
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    margin: 20px 0px;
+    padding: 10px 10px;
+}
+
+.result_content {
+    font-size:1.5em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px 10px;
+}
+.active {
+    background-color:black;
+    color:white;
+}
+.quiz-answer {
+    *margin-left:20px;
+    cursor:pointer;
+}
+.right-answer {
+    background:#52accc;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+.finish {
+    background:red;
+}
+.verify-answer {
+    background:red;
+    border-radius: 5px;
+    margin: 5px 0px;
+}

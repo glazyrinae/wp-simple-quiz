@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: simple-quiz\n"
+"POT-Creation-Date: 2019-08-30 10:12+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: GlazyrinAE <railot116@gmail.com>\n"
+"Language-Team: GlazyrinAE\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/classes/class-controller-table-questions.php:48
+#: admin/classes/class-controller-table-questions.php:86
+msgid "An error has occurred: a question not found!"
+msgstr "Произошла ошибка: вопрос не найден!"
+
+#: admin/classes/class-controller-table-questions.php:118
+msgid "The question has been updated!"
+msgstr "Вопрос был обновлен!"
+
+#: admin/classes/class-controller-table-questions.php:123
+msgid ""
+"Please input correct question. Input text for a question and mark a right "
+"answer!"
+msgstr ""
+"Пожалуйста введите корректный вопрос. Введите тест вопроса или пометьте хоты "
+"бы один правильный ответ на вопрос!"
+
+#: admin/classes/class-controller-table-questions.php:127
+#: admin/classes/class-controller-table-quizzes.php:119
+msgid "An error has occurred!"
+msgstr "Произошла ошибка: вопрос не найден!"
+
+#: admin/classes/class-controller-table-questions.php:133
+msgid "The question has been added!"
+msgstr "Вопрос был добавлен!"
+
+#: admin/classes/class-controller-table-quizzes.php:37
+msgid "Simple Quiz List"
+msgstr "Список викторин"
+
+#: admin/classes/class-controller-table-quizzes.php:40
+#: admin/partials/class-render-quiz-form.php:14
+#: admin/partials/class-render-quiz-form.php:50
+msgid "Add new quiz"
+msgstr "Добавить новую викторину"
+
+#: admin/classes/class-controller-table-quizzes.php:55
+#: admin/classes/class-controller-table-quizzes.php:70
+msgid "List of Quizzes"
+msgstr "Список викторин"
+
+#: admin/classes/class-controller-table-quizzes.php:57
+#: admin/classes/class-controller-table-quizzes.php:72
+#: admin/classes/class-controller-table-results.php:54
+#: admin/classes/class-render-table-questions.php:151
+msgid "Items per page"
+msgstr "Элементов на странице"
+
+#: admin/classes/class-controller-table-quizzes.php:92
+msgid "An error has occurred: a quiz not found!"
+msgstr "Произошла ошибка: викторина не найдена!"
+
+#: admin/classes/class-controller-table-quizzes.php:96
+msgid "The quiz has been added!"
+msgstr "Викторина была добавлена!"
+
+#: admin/classes/class-controller-table-quizzes.php:115
+msgid "The quiz has been updated!"
+msgstr "Викторина была обновлена!"
+
+#: admin/classes/class-controller-table-quizzes.php:124
+msgid "Please enter a quiz name!"
+msgstr "Пожалуйста введите название викторины!"
+
+#: admin/classes/class-controller-table-results.php:41
+msgid "View list of quiz results"
+msgstr "Просмотр списка результатов викторины"
+
+#: admin/classes/class-controller-table-results.php:41
+msgid "List of quiz results"
+msgstr "Список результатов викторин"
+
+#: admin/classes/class-controller-table-results.php:52
+msgid "List of Result"
+msgstr "Список результатов"
+
+#: admin/classes/class-render-table-questions.php:16
+#: admin/classes/class-render-table-questions.php:17
+#: admin/classes/class-render-table-quizzes.php:16
+#: admin/classes/class-render-table-quizzes.php:17
+#: admin/classes/class-render-table-results.php:21
+#: admin/classes/class-render-table-results.php:22
+msgid "Simple quiz"
+msgstr "Простая викторина"
+
+#: admin/classes/class-render-table-questions.php:58
+#: admin/classes/class-render-table-quizzes.php:62
+msgid "No quiz available."
+msgstr "Таблица пуста."
+
+#: admin/classes/class-render-table-questions.php:73
+#: admin/classes/class-render-table-quizzes.php:71
+#: admin/partials/class-render-quiz-form.php:42
+msgid "Edit"
+msgstr "Редактировать"
+
+#: admin/classes/class-render-table-questions.php:76
+#: admin/classes/class-render-table-questions.php:142
+#: admin/classes/class-render-table-quizzes.php:73
+#: admin/classes/class-render-table-quizzes.php:125
+#: admin/classes/class-render-table-results.php:80
+#: admin/classes/class-render-table-results.php:131
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/classes/class-render-table-questions.php:120
+msgid "The question"
+msgstr "Вопрос"
+
+#: admin/classes/class-render-table-quizzes.php:105
+msgid "Title"
+msgstr "Название"
+
+#: admin/classes/class-render-table-quizzes.php:106
+#: admin/classes/class-render-table-results.php:113
+msgid "Date"
+msgstr "Дата"
+
+#: admin/classes/class-render-table-quizzes.php:107
+msgid "Short code"
+msgstr "Код для вставки"
+
+#: admin/classes/class-render-table-quizzes.php:108
+msgid "Count questions"
+msgstr "Количество вопросов"
+
+#: admin/classes/class-render-table-quizzes.php:109
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: admin/classes/class-render-table-quizzes.php:134
+msgid "Items_per_page"
+msgstr "Элементов на странице"
+
+#: admin/classes/class-render-table-quizzes.php:151
+#: admin/classes/class-render-table-results.php:157
+msgid "Verification Error"
+msgstr "Ошибка при проверке"
+
+#: admin/classes/class-render-table-results.php:70
+msgid "No results available."
+msgstr "Результаты отсутствуют."
+
+#: admin/classes/class-render-table-results.php:95
+msgid "Right answers: "
+msgstr "Правильные ответы "
+
+#: admin/classes/class-render-table-results.php:112
+msgid "Login"
+msgstr "Логин"
+
+#: admin/classes/class-render-table-results.php:114
+msgid "Status"
+msgstr "Статус"
+
+#: admin/classes/class-render-table-results.php:115
+msgid "Title quiz"
+msgstr "Название викторины"
+
+#: admin/classes/class-render-table-results.php:116
+msgid "Result"
+msgstr "Результат"
+
+#: admin/partials/class-helper.php:15
+msgid "Return to list of quizzes"
+msgstr "Вернуться к списку викторин"
+
+#: admin/partials/class-render-question-form.php:11
+msgid "Save question"
+msgstr "Сохранить вопрос"
+
+#: admin/partials/class-render-question-form.php:28
+msgid "Think up a question"
+msgstr "Придумай вопрос"
+
+#: admin/partials/class-render-question-form.php:30
+msgid "Click to add more"
+msgstr "Нажать для добавления нового вопроса"
+
+#: admin/partials/class-render-question-form.php:32
+msgid "Add new answer"
+msgstr "Добавить новый ответ"
+
+#: admin/partials/class-render-question-form.php:69
+msgid "Click here"
+msgstr "Нажми сюда"
+
+#: admin/partials/class-render-question-form.php:70
+msgid "this answer to be define as right"
+msgstr "чтобы пометить ответ как правильный"
+
+#: admin/partials/class-render-question-form.php:82
+msgid "Delete answer"
+msgstr "Удалить ответ"
+
+#: admin/partials/class-render-question-form.php:91
+msgid "Add media"
+msgstr "Добавить меди файлы"
+
+#: admin/partials/class-render-quiz-form.php:12
+msgid "List of the quizzes"
+msgstr "Список викторин"
+
+#: admin/partials/class-render-quiz-form.php:44
+msgid "Save the quiz"
+msgstr "Сохранить викторину"
+
+#: admin/partials/class-render-quiz-form.php:48
+msgid "Add"
+msgstr "Добавить"
+
+#: admin/partials/class-render-quiz-form.php:66
+msgid "Description"
+msgstr "Описание"
+
+#: admin/partials/class-render-quiz-form.php:83
+msgid "List of questions"
+msgstr "Список вопросов"
+
+#: admin/partials/class-render-quiz-form.php:85
+msgid "Add new question"
+msgstr "Добавить новый вопрос"
+
+#: admin/partials/class-render-result-form.php:15
+msgid "Results"
+msgstr "Результаты"
+
+#: public/class-simple-quiz-public.php:147
+msgid "Updating successful!"
+msgstr "Обновление успешно!"
+
+#: public/class-simple-quiz-public.php:205
+msgid "An error occurred while updating the result"
+msgstr "Произошла ошибка при обновлении результата"
+
+#: public/class-simple-quiz-public.php:359
+msgid "You have an active quiz"
+msgstr "У вас есть незавершенная викторина"
+
+#: public/classes/class-quiz-public-model.php:21
+msgid "Oops! This quiz has not some questions"
+msgstr "Упс! Эта викторина не содержит вопросов"
+
+#: public/classes/class-quiz-public-model.php:45
+msgid "Oops! The quiz not found!"
+msgstr "Упс! Эта викторина не найдена!"
+
+#: public/partials/simple-quiz-public-display.php:29
+msgid "Please! Input user login!"
+msgstr "Пожалуйста! Введите логин!"
+
+#: public/partials/simple-quiz-public-display.php:34
+msgid "Start this quiz"
+msgstr "Начать викторину"
+
+#: public/partials/simple-quiz-public-display.php:68
+msgid "Complete this quiz!"
+msgstr "Завершить викторину!"
+
+#: public/partials/simple-quiz-public-display.php:80
+msgid "You have current result: "
+msgstr "Ваш результат "
+
+#: public/partials/simple-quiz-public-display.php:81
+msgid "from "
+msgstr "из "
+
+#: public/partials/simple-quiz-public-display.php:83
+msgid "Start quiz again!"
+msgstr "Начать викторину снова!"
+
+#~ msgid "Different variants of translation in WordPress."
+#~ msgstr "Это мой первый перевод! поддержите меня!"

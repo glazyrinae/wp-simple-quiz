@@ -1,0 +1,22 @@
+/**
+ * css for admin panel
+ * @since      1.0.0
+ * @package    simple_quiz
+ * @subpackage admin/css
+ * @author     Glazyrin Andrey <railot116@example.com>
+ *
+ */
+.box-clear-both {
+    clear: both;
+}
+#type-container
+.box-right-position {
+    float: right;
+}
+.box-right-position
+.remove-type a{
+    color:red;
+}
+.label-check{
+    float:left;
+}
